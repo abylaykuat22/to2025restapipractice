@@ -1,9 +1,11 @@
 package com.example.to2025restapipractice.service;
 
+import com.example.to2025restapipractice.dto.ProductResponse;
 import com.example.to2025restapipractice.entity.Product;
 import com.example.to2025restapipractice.exception.EntityNotFoundException;
 import com.example.to2025restapipractice.exception.IncorrectStatusException;
 import com.example.to2025restapipractice.exception.ProductUniqueException;
+import com.example.to2025restapipractice.mapper.ProductMapper;
 import com.example.to2025restapipractice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
